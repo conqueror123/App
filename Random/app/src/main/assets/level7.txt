@@ -1,0 +1,16 @@
+Data , Tells a lot !
+
+In this tutorial i'm going to show you a technicque to hide data behind an image.How ?
+
+collect all the data be it text files or of any other format . Put all that data in a folder.Convert that folder into a .rar.To do that right click the folder and choose add to .rar .Now you have a folder wgich has zipped data.
+Copy a image in the same directory as of your .rar file.Open  command prompt and type cd (path of your director).If you have the data in desktop it will be cd Desktop.
+Now, your prompt is in the directory which has both the image and .rar file.
+Now type the command
+
+copy /b originalimage.png+folder.rar newimage.png
+
+voila,you just hid the data behind an image.
+
+Here , original image is the image which you copied to the directory.newimage is the output photo. Folder.rar is the ziped data.
+
+To reveal the data right click the photo and choose winRAR.You will get back the data.

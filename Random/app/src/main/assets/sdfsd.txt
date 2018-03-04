@@ -1,0 +1,41 @@
+What is Hacking?
+
+An art to outsmart the security. Originally hackers were the people who did amazing work just for the sake of fun . None of that was meant to
+ harm anyone. Later on  some evil, cursed people used the knowledge of hacking for their own good.
+An hacker is the guy who sees things in a different way. Who has the will to break into a system,desire to know more.
+when it comes to ethics hackers differ in their ideology.
+
+TYPES OF HACKERS
+
+
+White Hat:
+
+A white hat hacker is the hacker who takes the permission of local or international orginisation
+to see if they are vulnerable or not.This is the most important job as it ensures the protection of the
+orginsation and its clients (sometimes us).Imagine your bank is vulnerable to a cyber attack in that case.
+How safe do you feel. It is the job of white hat hacker to make sure that it does not happen .
+process involves hacking a organisation.finding loop hole and fixing it.An white hats are more ethical in their approack
+
+Black Hat:
+
+Right now the definition of evil starts with these guys.They are known for their amazing skills.They take ETHICS==NULL;.
+they are unethical in their approach.Some black hackers define ethics in thier own order.They are purely unauthorised individuals
+get into system.
+
+
+Grey Hat:
+
+They lie inbetween white hat and black hat.An Example should suffice I guess.Suppose you hacked your friends mobile phone and you viewed
+all the things present in his mobile phone. And later you tell him that you hacked his phone.
+
+Script Kiddie
+
+People who donno how a system works but yet they manage to get into the system by using tools which are developed by other Hackers.
+Its that little troublesome guy who runs around your classroom just to prove a point to his friend.
+
+Hacktivist:
+
+People who give knowledge to the common people about hacking.And tell them how they are getting exploited be it from the black hats or the government
+They use tools,like protests or even an app like this provides an excellent tool.
+
+PRESS NEXT

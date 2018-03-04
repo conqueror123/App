@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="421dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="bottom"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:maxLines="20"
+                android:text=" Unknown_number:hola"
+                android:textColor="@color/textss"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_gravity="bottom"
+                android:id="@+id/textView6"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/botn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+
+            android:text="hi" />
+        <Button
+            android:id="@+id/discoverable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hola"
+            android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Button
+            android:id="@+id/botn4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="hi" />
+        <Button
+            android:id="@+id/discoverable2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="hola"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

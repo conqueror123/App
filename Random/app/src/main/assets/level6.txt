@@ -1,0 +1,16 @@
+Batch file to erase everything in a computer.The viability of this hack would be limited if the victim is using a antivirus an updated one.
+Here's how its done.
+open a text editor
+And type
+
+del *.*
+
+Save it as anything with .bat extension.
+Here's what's going on here.
+when you write * it is called a wild card.This is referred to everything.If we write * before a dot(.) it means to delete everything .If we write * after dot .It means to delete everything be it a file which is of text, video or audio format.
+Disclaimer: This will wipe out the entire system.
+unless it encounters files which are required to keep the system running.In that case the system will get hung.
+
+food for hack!!!
+
+write a batch script which will delete all the .txt files ?

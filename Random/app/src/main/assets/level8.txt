@@ -1,0 +1,26 @@
+Android is Linux based .True
+Android has a shell .True
+Android is exploitable.You said it kid
+
+In this tutorial i'm gonna tell you guys .How to hide the data in android without using app lock or other apps.
+Open your file manager
+create a new folder
+cut paste all the data (images,videos,text documents...etc)
+Open settings of the file manager.
+Press show hidden files.
+Rename the folder as .something Remember to put a dot in front of filename.
+now press hide files in the setting.
+
+voila
+Now try openin those images using gallery.It won't be visible.
+Now try searching for those filed it won't be visible.
+
+To see that data again you need to
+open file manager
+unhide
+open the folder .something
+there, you have your data back
+
+Here's whats going on here.When we put a dot in front of any filename .It is not visible to the normal app(I.e, your gallery app).Which uses normal commands to search for data.
+
+Same thing goes for linux.

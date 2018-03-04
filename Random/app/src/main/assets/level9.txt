@@ -1,0 +1,22 @@
+Hashing and encryption.
+
+Hashing is a number/string generated from a function . This function is called the hashing function.The string that is stored after the hashing is called the hash value.
+The value which is hashed is called the message.Let us consider the value "hacker".If that is hashed .It will give a value something like 4TgYS$g^HJUgTffps .
+We cannot make out what it means unless you know the hashing function.
+For example if we have 9
+The hashing function says 9^0.25=1.7320
+and the convert 1.7320 into log we get 0.238547
+Take 0.238547 and multiply it with pi we get 0.749420
+Now does 0.749420 remind you of some number.
+It is called one way because because of the operations performed by it vary.Beautiful isnt it ?
+
+Why do i need hashing ?
+Imagine your phone has password which only you and the phone know .Once you enter the password it has to compare with some value to see if it is you or not . If a hacker wants to hack your phone .The hacker would go after the value which is already stored inside the memory.Unless it is hashed your phone is vulnerable.To prevent this hashing is used. However, Hackers always find a way around.
+
+
+Encryption
+
+Hiding the data.By changing its original state into a state which is not human readable.Encryption is famous from world war.
+All the data in whatsapp and facebook needs to be encrypted.If you are using whatsapp you will see something like crypt12 or crpt13.
+Encryption needs to done when you are sending information from one part of the world to another part of the world.The other thing about encryption is that it can send huge amount of data unlike hashing which is fixed.
+

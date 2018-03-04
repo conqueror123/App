@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.root.random">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Some" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".ListActivity" />
+        <activity android:name=".Level1" />
+        <activity android:name=".ChatActivity" />
+        <activity android:name=".Level2" />
+        <activity android:name=".Chat2Activity" />
+        <activity android:name=".Level3" />
+        <activity android:name=".Chat3Activty" />
+        <activity android:name=".Chat4Activity" />
+        <activity android:name=".Chat5Activity" />
+        <activity android:name=".Level5" />
+        <activity android:name=".Chat6Activity" />
+        <activity android:name=".level6" />
+        <activity android:name=".Level7" />
+        <activity android:name=".Chat8Activity" />
+        <activity android:name=".Level8" />
+        <activity android:name=".Level9" />
+        <activity android:name=".Level10" />
+        <activity android:name=".Chat10Activity" />
+        <activity android:name=".Level11" />
+        <activity android:name=".Level12" />
+        <activity android:name=".Level13" />
+        <activity android:name=".Level14" />
+        <activity android:name=".Level15" />
+        <activity android:name=".Aboutme"></activity>
+    </application>
+
+</manifest>

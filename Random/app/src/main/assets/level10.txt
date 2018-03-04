@@ -1,0 +1,8 @@
+Social engineering.
+
+For a hacker the weakest link in exploitation of a system is the people who operate them.You can have the latest tech by your side.If you dont train your employees your system is vulnerable.Social engineering is an art of manipulating people so that they give confidential data which they are not supposed to give.Ofcourse, social engineering is used to convince people to do things that may cause damage to them.
+Social engineering can include convincing your victim to go to a website (phishing).Or it can include gaining credential information which is used to form a bigger part of the exploit.
+You can build a better hack but without prey the predator remains hungry.
+In this tutorial convince your victim to visit a malicious website.
+This is a basic social engineering concept.People use much more complex technique.
+press start to chat with your victim.

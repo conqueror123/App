@@ -1,0 +1,13 @@
+Metasploit
+
+What is metasploit ?
+ Its basically a framework for pentesting .It is the most used pentesting tool.Kali linux has it preinstalled if you install kali you get all the required the without worryng about the installation part.
+ Here's how you work with it.
+
+->Choosing an exploit .It differs for windows linux or even android
+->checking if the system is vulnerable or not
+->Choosing a payload.
+->Choosing the encoding technique.
+->Finally exploit.
+
+ I know for basics this makes no sense but later on you will realise the gist of it.
